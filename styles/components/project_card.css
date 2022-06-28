@@ -1,0 +1,43 @@
+ul.card-wrapper {
+	@apply my-5 grid gap-5 md:grid-cols-2 md:gap-4 lg:grid-cols-3;
+}
+
+li div.project_card {
+	@apply flex flex-col gap-6 shadow-md  bg-gradient-to-t from-slate-500 to-blue-500 rounded-md text-white overflow-hidden;
+}
+
+li div.project_card .heading {
+	@apply text-sm font-semibold uppercase tracking-wide border-b px-3 py-4 text-golden-yellow truncate text-ellipsis bg-gradient-to-t from-slate-500 to-blue-500;
+}
+
+li div.project_card .body {
+	@apply grid grid-cols-3 gap-2 px-3;
+}
+
+li div.project_card .body .img-wrapper {
+	@apply relative col-span-2 h-[130px] border border-golden-yellow;
+}
+
+li div.project_card .body ul.techs-list {
+	@apply text-xs col-span-1 font-semibold grid grid-rows-5 whitespace-nowrap;
+}
+
+li div.project_card .body ul.techs-list li {
+	@apply py-1;
+}
+
+li div.project_card .body ul.techs-list li:not(:last-child) {
+	@apply border-b;
+}
+
+li div.project_card .project_links {
+	@apply w-full grid grid-cols-2 text-sm px-3 pb-4;
+}
+
+li div.project_card .project_links a {
+	@apply text-center bg-white text-slate-800 py-2;
+}
+
+li div.project_card .project_links a:last-child {
+	@apply text-center bg-slate-800 text-golden-yellow py-2 border border-golden-yellow;
+}

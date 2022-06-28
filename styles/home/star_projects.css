@@ -1,0 +1,15 @@
+section.star_projects {
+	@apply px-3 pt-12 md:px-[10%] lg:px-[20%];
+}
+
+section.star_projects h2 {
+	@apply font-bold mb-7 text-lg md:text-2xl;
+}
+
+section.star_projects div.link {
+	@apply flex justify-end;
+}
+
+section.star_projects div.link a {
+	@apply text-xs text-right border-b pb-1 text-slate-500 transition-colors hover:text-slate-700 md:text-sm;
+}
