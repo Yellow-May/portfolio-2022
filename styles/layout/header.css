@@ -1,0 +1,39 @@
+header.main-layout-header {
+	@apply sticky top-0 z-50 bg-blue-600 flex justify-between items-center shadow-lg md:px-[10%] md:h-16 lg:px-[20%];
+}
+
+header.main-layout-header button.menu-btn {
+	@apply mr-2 md:hidden;
+}
+
+header.main-layout-header nav {
+	@apply fixed z-50 top-0 right-0 h-full w-2/3 bg-blue-600 pt-20 px-5 flex flex-col gap-7 transition-transform md:static md:flex-row md:w-auto md:p-0 md:items-center;
+}
+
+header.main-layout-header nav.mob-closed-nav {
+	@apply translate-x-full md:translate-x-0;
+}
+
+header.main-layout-header nav button.close-btn {
+	@apply absolute top-3 right-2 md:hidden;
+}
+
+header.main-layout-header svg {
+	@apply text-golden-yellow;
+}
+
+header.main-layout-header nav .nav-link {
+	@apply flex gap-2 items-center p-1 text-sm w-full border-b border-white md:p-0 md:w-auto md:border-transparent md:transition-colors md:hover:border-white md:h-2/3;
+}
+
+header.main-layout-header nav .nav-link.active {
+	@apply bg-gradient-to-br from-slate-500 to-blue-400 md:from-transparent md:to-transparent md:border-golden-yellow;
+}
+
+header.main-layout-header nav .nav-link span {
+	@apply text-golden-yellow;
+}
+
+header.main-layout-header nav .nav-link svg {
+	@apply w-4 h-4;
+}

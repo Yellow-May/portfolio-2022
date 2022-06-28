@@ -1,0 +1,75 @@
+[
+	{
+		"id": "1",
+		"title": "Social Media App",
+		"imageUrl": "/projects/postiegram.png",
+		"techs": ["MERN", "Typescript", "Redux", "Ant design"],
+		"links": {
+			"repo": "https://github.com/Yellow-May/postiegram",
+			"site": "https://ymay-postiegram.herokuapp.com/"
+		},
+		"star": true
+	},
+	{
+		"id": "2",
+		"title": "Portfolio Website 2021",
+		"imageUrl": "/projects/portfolio_2021.png",
+		"techs": ["ReactJs", "Typescript", "Styled-Components"],
+		"links": {
+			"repo": "https://github.com/Yellow-May/portfolio-2021",
+			"site": "https://yellow-may.vercel.app/"
+		},
+		"star": true
+	},
+	{
+		"id": "3",
+		"title": "Space Tourism Website",
+		"imageUrl": "/projects/space_tourism.png",
+		"techs": ["NextJs", "Tailwindcss"],
+		"links": {
+			"repo": "https://github.com/Yellow-May/Frontend-Mentor-Space-tourism-website",
+			"site": "https://frontend-mentor-space-tourism-website.vercel.app/"
+		},
+		"star": true
+	},
+	{
+		"id": "4",
+		"title": "Rock Paper Scissors Game",
+		"imageUrl": "/projects/rock_paper_scissors.png",
+		"techs": ["ReactJs", "Typescript", "SCSS"],
+		"links": {
+			"repo": "https://github.com/Yellow-May/Frontend-Mentor-rock-paper-scissors",
+			"site": "https://frontend-mentor-rock-paper-scissors-rho.vercel.app/"
+		}
+	},
+	{
+		"id": "5",
+		"title": "E-commerce Product Page",
+		"imageUrl": "/projects/ecommerce_product_page.png",
+		"techs": ["ReactJs", "Typescript", "Tailwindcss"],
+		"links": {
+			"repo": "https://github.com/Yellow-May/Frontend-Mentor-E-commerce-product-page",
+			"site": "https://frontend-mentor-e-commerce-product-page.vercel.app/"
+		}
+	},
+	{
+		"id": "6",
+		"title": "Pomodoro Timer App",
+		"imageUrl": "/projects/pomodoro.png",
+		"techs": ["ReactJs", "Typescript", "SCSS"],
+		"links": {
+			"repo": "https://github.com/Yellow-May/pomodoro-timer-counter",
+			"site": "https://pomodoro-timer-counter.yellow-may.vercel.app/"
+		}
+	},
+	{
+		"id": "7",
+		"title": "Interactive Rating Component",
+		"imageUrl": "/projects/interactive_comp.png",
+		"techs": ["VueJs", "Typescript", "SCSS"],
+		"links": {
+			"repo": "https://github.com/Yellow-May/Frontend-Mentor-Interactive-Rating-Component",
+			"site": "https://frontend-mentor-interactive-rating-component-yellow-may.vercel.app/"
+		}
+	}
+]

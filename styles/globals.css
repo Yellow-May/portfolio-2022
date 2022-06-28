@@ -1,16 +1,15 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import './root.css';
 
-* {
-  box-sizing: border-box;
-}
+/* layout */
+@import './layout/header.css';
+
+/* home */
+@import './home/intro.css';
+@import './home/star_projects.css';
+
+/* components */
+@import './components/project_card.css';
