@@ -4,14 +4,14 @@ import Image from 'next/image';
 interface ProjectCardProps {
 	id: string;
 	title: string;
-	techs: string[];
+	keywords: string[];
 	links: { repo: string; site: string };
 	imageUrl: string;
 }
 
 const ProjectCard: FC<ProjectCardProps> = ({
 	title,
-	techs,
+	keywords,
 	links,
 	imageUrl,
 }) => {
@@ -24,8 +24,8 @@ const ProjectCard: FC<ProjectCardProps> = ({
 					<div className='img-wrapper'>
 						<Image src={imageUrl} alt={title} layout='fill' priority />
 					</div>
-					<ul className='techs-list'>
-						{techs.map(tech => (
+					<ul className='keywords-list'>
+						{keywords.map(tech => (
 							<li key={tech as Key}>{tech}</li>
 						))}
 					</ul>

@@ -1,5 +1,5 @@
 header.main-layout-header {
-	@apply sticky top-0 z-50 bg-blue-600 flex justify-between items-center shadow-lg md:px-[10%] md:h-16 lg:px-[20%];
+	@apply sticky top-0 z-50 bg-gray-700 flex justify-between items-center shadow-lg md:px-[10%] md:h-16 lg:px-[20%];
 }
 
 header.main-layout-header button.menu-btn {
@@ -7,7 +7,7 @@ header.main-layout-header button.menu-btn {
 }
 
 header.main-layout-header nav {
-	@apply fixed z-50 top-0 right-0 h-full w-2/3 bg-blue-600 pt-20 px-5 flex flex-col gap-7 transition-transform md:static md:flex-row md:w-auto md:p-0 md:items-center;
+	@apply fixed z-50 top-0 right-0 h-full w-2/3 bg-gray-700 pt-20 px-5 flex flex-col gap-7 transition-transform md:static md:flex-row md:w-auto md:p-0 md:items-center;
 }
 
 header.main-layout-header nav.mob-closed-nav {
