@@ -1,0 +1,50 @@
+main.contact_page {
+	@apply px-2 pt-4 grid gap-20 md:px-[10%] md:pt-10 lg:px-[20%];
+}
+
+section.profile_section,
+section.contact-me {
+	@apply h-full w-full max-w-2xl mx-auto lg:px-0;
+}
+
+section.profile_section h1,
+section.contact-me h2 {
+	@apply font-bold uppercase tracking-wide text-2xl mb-6 md:mb-10 md:text-3xl drop-shadow-md;
+}
+
+form {
+	@apply w-full flex flex-col gap-6 md:gap-8;
+}
+
+form button[type='submit'] {
+	@apply w-full border mt-1 uppercase tracking-wide font-semibold text-sm text-golden-yellow bg-gray-700 py-2 rounded-sm flex gap-2 items-center justify-center md:text-base;
+}
+
+form button span {
+	@apply text-inherit bg-inherit;
+}
+
+form div.form-input {
+	@apply w-full h-auto relative grid grid-cols-5 items-center;
+}
+
+form div.form-input label {
+	@apply col-span-1 font-semibold;
+}
+
+form div.form-input input,
+form div.form-input textarea {
+	@apply col-span-4 border border-gray-700 z-10 px-2;
+}
+
+form div.form-input input {
+	@apply h-8;
+}
+
+form div.form-input textarea {
+	@apply h-14;
+}
+
+form div.form-input span.error-message {
+	@apply absolute top-full left-[20%] text-sm text-red-600 lowercase tracking-wide transition-transform;
+}

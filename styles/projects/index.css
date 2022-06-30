@@ -3,7 +3,7 @@ main.projects_page {
 }
 
 main.projects_page h1 {
-	@apply font-bold uppercase tracking-wide text-2xl mb-6 md:mb-10 md:text-4xl;
+	@apply font-bold uppercase tracking-wide text-2xl mb-6 md:mb-10 md:text-4xl drop-shadow-md;
 }
 
 main.projects_page .filter-section {

@@ -39,12 +39,12 @@ const Header: FC = () => {
 				</a>
 			</Link>
 
-			<button className='menu-btn' onClick={openNav}>
+			<button title='open navbar' className='menu-btn' onClick={openNav}>
 				<MenuIcon />
 			</button>
 
 			<nav className={isOpen ? '' : 'mob-closed-nav'}>
-				<button className='close-btn' onClick={closeNav}>
+				<button title='close navbar' className='close-btn' onClick={closeNav}>
 					<CloseIcon />
 				</button>
 

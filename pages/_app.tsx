@@ -1,7 +1,8 @@
-import Layout from 'components/Layout';
+import { Fragment } from 'react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { Fragment } from 'react';
+import { ToastContainer } from 'react-toastify';
+import Layout from 'components/Layout';
 import 'styles/globals.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -16,6 +17,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<Layout>
 				<Component {...pageProps} />
 			</Layout>
+
+			<ToastContainer hideProgressBar />
 		</Fragment>
 	);
 }

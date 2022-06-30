@@ -1,5 +1,5 @@
 section.intro {
-	@apply w-full h-[475px] bg-main-image bg-cover bg-center bg-gray-400 bg-blend-overlay flex items-center px-3 md:px-[10%] md:h-[500px] lg:px-[20%];
+	@apply w-full h-[475px] bg-main-image bg-cover bg-center bg-gray-500 bg-blend-overlay flex items-center px-3 md:px-[10%] md:h-[500px] lg:px-[20%];
 }
 
 section.intro > div {
@@ -7,11 +7,11 @@ section.intro > div {
 }
 
 div.my-info h1 {
-	@apply text-3xl font-bold md:text-5xl md:mb-2;
+	@apply text-4xl text-golden-yellow mb-4 font-bold md:text-5xl;
 }
 
 div.my-info p {
-	@apply text-lg font-light md:text-2xl;
+	@apply text-xl text-white font-light md:text-2xl;
 }
 
 div.my-info div.badge-list {
@@ -27,13 +27,13 @@ div.links {
 }
 
 div.links a {
-	@apply px-4 py-2 text-sm font-semibold md:text-lg;
+	@apply px-4 py-2 font-semibold rounded-lg md:text-lg;
 }
 
 div.links a.left-link {
-	@apply border border-golden-yellow bg-white rounded-full text-slate-800;
+	@apply border border-golden-yellow bg-white text-slate-800;
 }
 
 div.links a.right-link {
-	@apply text-golden-yellow rounded-full bg-gradient-to-br from-slate-500 to-blue-500;
+	@apply text-golden-yellow bg-gradient-to-br from-slate-500 to-blue-500;
 }

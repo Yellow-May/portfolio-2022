@@ -1,9 +1,9 @@
 section.star_projects {
-	@apply px-3 pt-12 md:px-[10%] lg:px-[20%];
+	@apply px-3 pt-10 md:px-[10%] lg:px-[20%];
 }
 
 section.star_projects h2 {
-	@apply font-bold mb-7 text-lg md:text-2xl;
+	@apply font-bold mb-7 uppercase text-xl drop-shadow-md md:text-2xl;
 }
 
 section.star_projects div.link {

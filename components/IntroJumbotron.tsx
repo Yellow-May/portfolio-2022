@@ -9,7 +9,7 @@ const IntroJumbotron: FC = () => {
 			<div>
 				<div className='my-info'>
 					<h1>Onyekwere Precious</h1>
-					<p>Full stack Javascript Web Developer</p>
+					<p>Javascript Web Developer</p>
 
 					<div className='badge-list'>
 						{badges.map(badge => (
