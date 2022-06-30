@@ -3,11 +3,11 @@ ul.card-wrapper {
 }
 
 li div.project_card {
-	@apply flex flex-col gap-6 shadow-md  bg-gradient-to-t from-slate-500 to-blue-500 rounded-md text-white overflow-hidden;
+	@apply flex flex-col gap-6 shadow-lg bg-gradient-to-t from-slate-500 to-blue-500 rounded-md text-white overflow-hidden;
 }
 
 li div.project_card .heading {
-	@apply text-sm font-semibold uppercase tracking-wide border-b px-3 py-4 text-golden-yellow truncate text-ellipsis bg-gradient-to-t from-slate-500 to-blue-500;
+	@apply font-semibold uppercase tracking-wide border-b px-3 py-4 text-golden-yellow truncate text-ellipsis bg-gradient-to-t from-slate-500 to-blue-500 md:text-lg;
 }
 
 li div.project_card .body {

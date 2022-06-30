@@ -10,7 +10,7 @@ module.exports = {
 				'golden-yellow': '#fff6d5',
 			},
 			backgroundImage: {
-				'main-image': "url('/images/bg.png')",
+				'main-image': "url('/images/bg.jpg')",
 			},
 		},
 	},

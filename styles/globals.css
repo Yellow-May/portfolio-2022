@@ -14,5 +14,8 @@
 /* projects page */
 @import './projects/index.css';
 
+/* contact page */
+@import './contact/index.css';
+
 /* components */
 @import './components/project_card.css';
