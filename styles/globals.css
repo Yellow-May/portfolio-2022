@@ -7,9 +7,12 @@
 /* layout */
 @import './layout/header.css';
 
-/* home */
+/* home page */
 @import './home/intro.css';
 @import './home/star_projects.css';
+
+/* projects page */
+@import './projects/index.css';
 
 /* components */
 @import './components/project_card.css';

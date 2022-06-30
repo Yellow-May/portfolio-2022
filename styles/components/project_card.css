@@ -1,5 +1,5 @@
 ul.card-wrapper {
-	@apply my-5 grid gap-5 md:grid-cols-2 md:gap-4 lg:grid-cols-3;
+	@apply my-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3;
 }
 
 li div.project_card {
@@ -15,7 +15,7 @@ li div.project_card .body {
 }
 
 li div.project_card .body .img-wrapper {
-	@apply relative col-span-2 h-[130px] border border-golden-yellow;
+	@apply relative col-span-2 h-[120px] border border-golden-yellow;
 }
 
 li div.project_card .body ul.keywords-list {
