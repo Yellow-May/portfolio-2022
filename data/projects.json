@@ -3,7 +3,7 @@
 		"id": "1",
 		"title": "Social Media App",
 		"imageUrl": "/projects/postiegram.png",
-		"keywords": ["MERN", "Typescript", "Redux", "Ant design"],
+		"keywords": ["MERN", "Typescript", "Redux Toolkit", "Ant-design"],
 		"links": {
 			"repo": "https://github.com/Yellow-May/postiegram",
 			"site": "https://ymay-postiegram.herokuapp.com/"
@@ -44,7 +44,7 @@
 	{
 		"id": "5",
 		"title": "E-commerce Product Page",
-		"imageUrl": "/projects/ecommerce_product_page.png",
+		"imageUrl": "/projects/ecommerce_product.png",
 		"keywords": ["ReactJs", "Typescript", "Tailwindcss"],
 		"links": {
 			"repo": "https://github.com/Yellow-May/Frontend-Mentor-E-commerce-product-page",

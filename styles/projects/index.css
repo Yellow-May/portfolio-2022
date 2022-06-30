@@ -1,0 +1,39 @@
+main.projects_page {
+	@apply h-full px-2 pt-4 md:px-[10%] md:pt-10 lg:px-[20%];
+}
+
+main.projects_page h1 {
+	@apply font-bold uppercase tracking-wide text-2xl mb-6 md:mb-10 md:text-4xl;
+}
+
+main.projects_page .filter-section {
+	@apply mb-4 flex gap-3 p-2 overflow-auto md:mb-7;
+}
+
+main.projects_page .filter-section::-webkit-scrollbar {
+	@apply h-2;
+}
+
+main.projects_page .filter-section::-webkit-scrollbar-track {
+	@apply bg-gray-700;
+}
+
+main.projects_page .filter-section::-webkit-scrollbar-thumb {
+	@apply bg-blue-400;
+}
+
+main.projects_page .filter-section div.filter-option {
+	@apply relative px-2;
+}
+
+main.projects_page .filter-section div.filter-option.active {
+	@apply bg-golden-yellow;
+}
+
+main.projects_page .filter-section div.filter-option input {
+	@apply absolute w-full h-full cursor-pointer opacity-0;
+}
+
+main.projects_page .filter-section div.filter-option span {
+	@apply uppercase text-xs text-gray-700 font-semibold tracking-normal whitespace-nowrap md:text-sm;
+}
