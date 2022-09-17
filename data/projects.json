@@ -6,7 +6,7 @@
 		"keywords": ["MERN", "Typescript", "Redux Toolkit", "Ant-design"],
 		"links": {
 			"repo": "https://github.com/Yellow-May/postiegram",
-			"site": "https://ymay-postiegram.herokuapp.com/"
+			"site": "https://postiegram.up.railway.app/"
 		},
 		"star": true
 	},
