@@ -4,20 +4,28 @@ import {
 	Code,
 	DownloadCloud,
 	Linkedin,
-	MapPin,
 	MessageSquare,
 	User,
+	GitHub,
 } from 'react-feather';
 
 const infos = [
 	{ id: 0, Icon: User, label: <span>Onyekwere Chidiebube Precious</span> },
-	{ id: 1, Icon: Code, label: <span>Web Developer</span> },
-	{ id: 2, Icon: MapPin, label: <span>Nigeria</span> },
+	{ id: 1, Icon: Code, label: <span>Full Stack Web Developer</span> },
 	{
-		id: 3,
+		id: 2,
 		Icon: MessageSquare,
 		label: (
 			<a href='mailto:onyekwerechidip@gmail.com'>onyekwerechidip@gmail.com</a>
+		),
+	},
+	{
+		id: 3,
+		Icon: GitHub,
+		label: (
+			<a href='https://github.com/Yellow-May' target='_blank' rel='noreferrer'>
+				Github Profile
+			</a>
 		),
 	},
 	{
@@ -36,7 +44,10 @@ const infos = [
 		id: 5,
 		Icon: DownloadCloud,
 		label: (
-			<a href='/files/onyekwere_precious.pdf' target='_blank' rel='noreferrer'>
+			<a
+				href='/files/onyekwere_precious_v2.pdf'
+				target='_blank'
+				rel='noreferrer'>
 				Resume / CV
 			</a>
 		),
